@@ -49,7 +49,7 @@ This project demonstrates a full-stack MERN application. It utilizes a React-bas
    - Add your favorite meals to the **Kart**.
 4. **Shopping Kart and Checkout:**
    - Click on the **Shopping Cart** at the top to view items added.
-   - Proceed to **Checkout**, and pay using the Stripe test cards provided.
+   - Proceed to **Checkout**, and pay using the Stripe test cards provided. Use any test cards listed here for payment(https://docs.stripe.com/testing) 
    - After payment, a transaction ID will be generated.
 5. **Orders Page:**
    - Visit the **Orders Page** to view all your orders and their statuses.
