@@ -1,5 +1,9 @@
 # Blinkit Client
 
+## Hosted Links
+- **Frontend**: [Frontend on Vercel](<your-frontend-link>) (This is the main app link)
+- **Backend**: [Backend on Render](<your-backend-link>)
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Website Screenshots Documentation](#website-screenshots-documentation)
@@ -16,6 +20,8 @@
 3. [Installation](#installation)
    - [Frontend Setup](#frontend-setup)
    - [Backend Setup](#backend-setup)
+   - [Frontend Hosting on Vercel](#frontend-hosting-on-vercel)
+   - [Backend Hosting on Render](#backend-hosting-on-render)
 4. [Environment Variables Setup](#environment-variables-setup)
    - [Frontend Environment Variables](#frontend-environment-variables)
    - [Backend Environment Variables](#backend-environment-variables)
@@ -139,6 +145,20 @@ Before proceeding, ensure you have [Node.js](http://nodejs.org) and [npm](https:
    ACCESS_TOKEN_SECRET=<JWT Secret Token>
    PAYMENT_SECRET_KEY=<Stripe Secret Key>
    ```
+
+### Frontend Hosting on Vercel
+
+1. Log in to [Vercel](https://vercel.com/).
+2. Create a new project and import the `frontend` directory from your GitHub repository.
+3. Configure the environment variables by adding the same variables from `.env.local`.
+4. Deploy the project.
+
+### Backend Hosting on Render
+
+1. Log in to [Render](https://render.com/).
+2. Create a new web service and select the `backend` directory from your GitHub repository.
+3. Set the environment variables by adding the same variables from `.env`.
+4. Deploy the project.
 
 ---
 
