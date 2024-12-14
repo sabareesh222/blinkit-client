@@ -10,7 +10,7 @@
 - [Environment Variables Setup](#environment-variables-setup)
   - [Frontend Environment Variables](#frontend-environment-variables)
   - [Backend Environment Variables](#backend-environment-variables)
-- [Owner](#Owner)
+- [Owner](#owner)
 
 ## Overview
 
