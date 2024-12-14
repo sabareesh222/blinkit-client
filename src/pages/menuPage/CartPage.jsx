@@ -21,7 +21,7 @@ const CartPage = () => {
     if (item.quantity + increment < 1) return;
 
     try {
-      const response = await fetch(`http://localhost:5000/carts/${item._id}`, {
+      const response = await fetch(`https://blinkit-server-tppv.onrender.com/carts/${item._id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ quantity: item.quantity + increment }),
@@ -53,7 +53,7 @@ const CartPage = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .delete(`http://localhost:5000/carts/${item._id}`)
+          .delete(`https://blinkit-server-tppv.onrender.com/carts/${item._id}`)
           .then(() => {
             refetch();
             Swal.fire("Deleted!", "The item has been removed.", "success");

@@ -30,7 +30,7 @@ const Cards = ({ item }) => {
       };
 
       axios
-        .post("http://localhost:5000/carts", newCartItem)
+        .post("https://blinkit-server-tppv.onrender.com/carts", newCartItem)
         .then((response) => {
           if (response) {
             reloadCart();
