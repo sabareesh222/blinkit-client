@@ -1,4 +1,59 @@
 # blinkit-client
+# Website Screenshots Documentation
+
+## Landing Page
+![Landing Page](./public/images/website/blin_landing.png)
+The landing page serves as the entry point to the website, providing an overview and welcoming users to explore its features.
+
+## Home Page
+### View 1
+![Home Page View 1](./public/images/website/blin_home1.png)
+This is the primary home page view, showcasing key features and navigation options.
+
+### View 2
+![Home Page View 2](./public/images/website/blin_home2.png)
+An alternative view of the home page, highlighting additional sections and user options.
+
+## Sidebar
+![Sidebar](./public/images/website/blin_sidebar.png)
+The sidebar provides quick access to various sections of the website, ensuring smooth navigation.
+
+## Admin Dashboard
+![Admin Dashboard](./public/images/website/blin_admin_dash.png)
+The admin dashboard allows administrators to monitor and manage the website's core functionalities efficiently.
+
+## Menu Management
+### Menu Overview
+![Menu Overview](./public/images/website/blin_menu.png)
+The menu overview displays all available menu categories, enabling easy browsing and updates.
+
+### Add New Menu
+![Add New Menu](./public/images/website/blin_add_menu.png)
+This section allows administrators to add new menu items, ensuring the offerings are up-to-date.
+
+### Menu Items
+![Menu Items](./public/images/website/blin_menu_items.png)
+A detailed view of all menu items, complete with editing and organizational options.
+
+## Orders
+![Orders](./public/images/website/blin_orders.png)
+The orders page lists all customer orders, providing details and management capabilities for each order.
+
+## Kart
+![Kart](./public/images/website/blin_kart.png)
+The kart page displays items selected by users for purchase, along with checkout options.
+
+## Payments
+![Payments](./public/images/website/blin_pay.png)
+The payments section facilitates secure transactions, showcasing payment methods and history.
+
+## User Management
+![User Management](./public/images/website/blin_users.png)
+The user management page allows administrators to manage user accounts, roles, and permissions.
+
+## Management
+![Management](./public/images/website/blin_manage.png)
+This section provides tools and options for overall website management, ensuring seamless operations.
 
 
 ## Table of Contents
