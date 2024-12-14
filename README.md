@@ -1,8 +1,8 @@
 # Blinkit Client
 
 ## Hosted Links
-- **Frontend**: [Frontend on Vercel](<your-frontend-link>) (This is the main app link)
-- **Backend**: [Backend on Render](<your-backend-link>)
+- **Frontend**: Frontend on Vercel: https://blinkit-client-two.vercel.app/ (This is the main app link)
+- **Backend**: Backend on Render: https://blinkit-server-tppv.onrender.com/
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -31,11 +31,58 @@
 
 ## Overview
 
-This project demonstrates a full-stack MERN application. It utilizes a React-based frontend and an Express.js-powered backend. Both communicate through REST APIs, making it a robust foundation for modern web applications. 
+Blinkit is a full-stack eCommerce application designed to provide an easy-to-use platform for purchasing meal kits. Users can browse through a variety of meal options, add them to their cart, and complete their purchase seamlessly through a secure payment system. Administrators have access to a dashboard for managing the menu, tracking orders, and monitoring revenue. The app is built with the MERN stack, ensuring high performance and scalability for a modern eCommerce experience.
+
+This project demonstrates a full-stack MERN application. It utilizes a React-based frontend and an Express.js-powered backend. Both communicate through REST APIs, making it a robust foundation for modern web applications.
+
+---
+
+## How to Use the App?
+
+1. Open the main app link: [https://blinkit-client-two.vercel.app/](https://blinkit-client-two.vercel.app/).
+2. **Login or Signup:**
+   - Please use **Login with Gmail** for faster authentication.
+   - Alternatively, you can create an account, but it is slightly slower.
+3. **Explore the Landing Page:**
+   - Browse through the meal kits available for purchase.
+   - Click on **Menu** in the Navbar and select **All** to view all available options.
+   - Add your favorite meals to the **Kart**.
+4. **Shopping Kart and Checkout:**
+   - Click on the **Shopping Cart** at the top to view items added.
+   - Proceed to **Checkout**, and pay using the Stripe test cards provided.
+   - After payment, a transaction ID will be generated.
+5. **Orders Page:**
+   - Visit the **Orders Page** to view all your orders and their statuses.
+6. **Admin Dashboard:**
+   - Admins can view a dashboard showcasing revenue, orders, and other statistics (dynamically gets updated).
+   - Admins can also add menu items, manage bookings, and handle user accounts.
+   - Note: Currently, making a user an admin requires an update in MongoDB.
+   - To view the admin functionalities in action:
+     1. First, log in to Gmail using the following credentials:
+        - **Email**: saba.blinkit@gmail.com
+        - **Password**: Sabablinkit1!
+     2. Then, in the Blinkit app, use the Gmail login option and select `saba.blinkit@gmail.com` from the Gmail selection prompt.
+7. **Logout:**
+   - Once done, click the **Logout** button in the sidebar to securely log out.
+
+This project demonstrates a full-stack MERN application. It utilizes a React-based frontend and an Express.js-powered backend. Both communicate through REST APIs, making it a robust foundation for modern web applications.
 
 ---
 
 ## Website Screenshots Documentation
+
+### Authentication Screenshots
+- **Login Page**  
+  ![Login Page](./public/images/website/blin_login.png)  
+  This page allows users to log in with their credentials.
+
+- **Signup Page**  
+  ![Signup Page](./public/images/website/blin_signup.png)  
+  This page enables users to register and create an account.
+
+- **Select Gmail Option**  
+  ![Select Gmail Option](./public/images/website/blin_select_Gmail.png)  
+  This page provides an option to select Gmail for authentication.
 
 ### Landing Page
 ![Landing Page](./public/images/website/blin_landing.png)
